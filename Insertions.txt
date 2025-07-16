@@ -1,0 +1,402 @@
+INSERT INTO employee (emp_id, name, shift, salary, hire_date, date_of_birth, state, city, sid, 
+super_id) 
+VALUES 
+(1, 'Jay Bhatt', 'Day', 50000, '2023-01-01', '1990-01-01', 'Gujarat', 'Bhavnagar', 1, 10),
+(2, 'Manan Gupta', 'Night', 52000, '2023-01-02', '1985-02-15', 'Delhi', 'Alipur', 1, NULL),
+(3, 'Elina Bose', 'Day', 28000, '2023-01-05', '1992-03-20', 'West Bengal', 'Silliguri', 2, 2),
+(4, 'Shreya Bhattacharya', 'Night', 35000, '2023-01-10','1988-06-10', 'Maharashtra', 'Nagpur', 2, 17),
+(5, 'Sonakshi Bose', 'Day', 41000, '2023-01-15', '1995-09-25', 'Punjab', 'Amritsar', 11, 23),
+(6,'Pragna Parekh','Day',23000,'1990-01-01','1995-09-25', 'Bihar', 'Patna', 3, 29),
+(7, 'Ravi Kumar', 'Morning', 40000, '2023-05-15', '1990-03-12', 'Maharashtra', 'Mumbai', 4, 2),
+(8, 'Priya Sharma', 'Evening', 45000, '2022-09-20', '1988-11-28', 'Delhi', 'New Delhi', 11, 10),
+(9, 'Rahul Patel', 'Night', 38000, '2024-01-10', '1995-07-03', 'Gujarat', 'Ahmedabad', 5, 17),
+(10, 'Ananya Singh', 'Morning', 42000, '2023-11-05', '1993-02-17', 'Uttar Pradesh', 'Lucknow', 6, 
+NULL),
+(11, 'Amit Verma', 'Evening', 47000, '2022-12-18', '1991-08-21', 'Karnataka', 'Bangalore', 7, 23),
+(12, 'Pooja Gupta', 'Morning', 38000, '2023-08-25', '1992-06-15', 'Uttar Pradesh', 'Agra', 8, 29),
+(13,'Vikram Singh', 'Evening', 42000, '2022-10-30', '1994-04-20', 'Rajasthan', 'Jaipur', 9, 2),
+(14, 'Neha Sharma', 'Night', 45000, '2024-02-15', '1996-09-05', 'Haryana', 'Gurgaon', 9, 10),
+(15, 'Rajesh Tiwari', 'Morning', 40000, '2023-12-10', '1990-11-12', 'Madhya Pradesh', 'Bhopal', 4, 17),
+(16, 'Kavita Reddy', 'Evening', 48000, '2022-11-28', '1989-07-30', 'Telangana', 'Hyderabad', 8, 23),
+(17, 'Arun Kumar', 'Morning', 41000, '2023-07-20', '1991-04-10', 'Tamil Nadu', 'Chennai', 10, NULL),
+(18, 'Meera Desai', 'Evening', 43000, '2022-08-12', '1993-12-05', 'Kerala', 'Kochi', 12, 29),
+(19, 'Deepak Singh', 'Night', 37000, '2024-03-05', '1997-02-18', 'Punjab', 'Amritsar', 10, 2),
+(20, 'Nisha Sharma', 'Morning', 42000, '2023-10-15', '1990-09-22', 'West Bengal', 'Kolkata', 5, 10),
+(21, 'Rajiv Verma', 'Evening', 46000, '2022-12-30', '1988-05-28', 'Bihar', 'Patna', 5, 17),
+(22, 'Priyanka Singh', 'Morning', 39000, '2023-09-18', '1992-11-08', 'Uttarakhand', 'Dehradun', 7,23),
+(23, 'Sanjay Patel', 'Evening', 44000, '2022-11-05', '1995-03-25', 'Assam', 'Guwahati',10, NULL),
+(24, 'Shreya Malhotra', 'Night', 38000, '2024-04-02', '1996-07-20', 'Odisha', 'Bhubaneswar', 8, 29),
+(25, 'Vishal Gupta', 'Morning', 45000, '2023-12-20', '1990-10-15', 'Jharkhand', 'Ranchi', 6, 2),
+(26, 'Anjali Joshi', 'Evening', 47000, '2022-10-15', '1989-06-30', 'Chhattisgarh', 'Raipur',12, 10),
+(27, 'Kiran Singh', 'Morning', 40000, '2023-08-10', '1991-12-25', 'Himachal Pradesh', 'Shimla', 11, 23),
+(28, 'Aarav Sharma', 'Evening', 46000, '2022-09-05', '1994-07-15', 'Nagaland', 'Kohima', 12, 29),
+(29, 'Jasmine Khan', 'Night', 45000, '2024-01-30', '1996-10-20', 'Meghalaya', 'Shillong', 4, NULL),
+(30, 'Arya Gupta', 'Morning', 49000, '2023-11-20', '1990-09-12', 'Manipur', 'Imphal', 7, 2),
+(31, 'Vihaan Patel', 'Evening', 45000, '2022-12-15', '1988-03-28', 'Mizoram', 'Aizawl', 5, 10);
+
+
+
+-- Inserting into emp_email table
+INSERT INTO emp_email (email_id, emp_id) 
+VALUES 
+('john.doe@example.com', 1),
+('jane.smith@example.com', 2),
+('alice.johnson@example.com', 3),
+('bob.brown@example.com', 4),
+('emily.white@example.com', 5),
+('sanjay@example.com', 6),
+('ravi.kumar@example.com', 7),
+('priya.sharma@example.com', 8),
+('rahul.patel@example.com', 9),
+('ananya.singh@example.com', 10),
+('amit.verma@example.com', 11),
+('pooja.gupta@example.com', 12),
+('pooja_12345.gupta@example.com', 12),
+('vikram.singh@example.com', 13),
+('neha.sharma@example.com', 14),
+('rajesh.tiwari@example.com', 15),
+('kavita.reddy@example.com', 16),
+('arun.kumar@example.com', 17),
+('meera.desai@example.com', 18),
+('deepak.singh@example.com', 19),
+('nisha.sharma@example.com', 20),
+('rajiv.verma@example.com', 21),
+('rajiv_ABCD@example.com', 21),
+('priyanka.singh@example.com', 22),
+('sanjay.patel@example.com', 23),
+('shreya.malhotra@example.com', 24),
+('vishal.gupta@example.com', 25),
+('v_gupta@example.com', 25),
+('anjali.joshi@example.com', 26),
+('kiran.singh@example.com', 27),
+('aarav.sharma@example.com', 28),
+('jasmine.khan@example.com', 29),
+('arya.gupta@example.com', 30),
+('vihaan.patel@example.com', 31);
+
+
+
+-- Inserting into section table
+INSERT INTO section (sid, sname, mgr_id) 
+VALUES 
+(1, 'clothing', 1),
+(2, 'food and groceries', 5),
+(3, 'Customer_Service', 10),
+(4, 'home furnishing', 15),
+(5, 'electronics', 14),
+(6, 'stationary', 25),
+(7, 'Beauty and cosmetisc', 30),
+(8, 'sports and fitness', 16),
+(9, 'toys and childrens products', 23),
+(10, 'entertainment', 20),
+(11, 'gifts and seasonal items', 5),
+(12, 'health and wellness', 26);
+
+
+
+-- Inserting into customer table
+INSERT INTO customer (cust_id, cust_name, mobile_no, payment_mode) 
+VALUES
+(1, 'Priya Gupta', '9876543210', 'Credit Card'),
+(2, 'Rahul Sharma', '8765432109', 'Debit Card'),
+(3, 'Aisha Khan', '7654321098', 'Cash'),
+(4, 'Vivek Patel', '6543210987', 'UPI'),
+(5, 'Neha Reddy', '5432109876', 'Credit Card'),
+(6, 'Raj Kumar', '4321098765', 'Cash'),
+(7, 'Sneha Singh', '3210987654', 'Debit Card'),
+(8, 'Amit Verma', '2109876543', 'UPI'),
+(9, 'Kavita Sharma', '1098765432', 'Credit Card'),
+(10, 'Ankit Yadav', '0987654321', 'Cash'),
+(11, 'Nisha Gupta', '9876543211', 'Debit Card'),
+(12, 'Vikram Singh', '8765432101', 'Credit Card'),
+(13, 'Divya Sharma', '7654321091', 'Cash'),
+(14, 'Arjun Patel', '6543210981', 'UPI'),
+(15, 'Ananya Reddy', '5432109871', 'Debit Card'),
+(16, 'Sachin Kumar', '4321098761', 'Cash'),
+(17, 'Riya Singh', '3210987651', 'Credit Card'),
+(18, 'Arun Verma', '2109876541', 'UPI'),
+(19, 'Shreya Sharma', '1098765431', 'Debit Card'),
+(20, 'Rohit Yadav', '0987654321', 'Cash'),
+(31, 'Aarav Singh', '9876543213', 'Debit Card'),
+(32, 'Kritika Sharma', '8765432103', 'Credit Card'),
+(33, 'Anand Patel', '7654321093', 'Cash'),
+(34, 'Sneha Reddy', '6543210983', 'UPI'),
+(35, 'Rahul Verma', '5432109873', 'Debit Card'),
+(36, 'Ananya Gupta', '4321098763', 'Credit Card'),
+(37, 'Rohan Kumar', '3210987653', 'Cash'),
+(38, 'Sakshi Singh', '2109876543', 'UPI'),
+(39, 'Manoj Sharma', '1098765433', 'Debit Card'),
+(40, 'Kavya Yadav', '0987654323', 'Credit Card'),
+(41, 'Alice Johnson', 1234567890, 'Card'),
+(42, 'Bob Smith', 9876543210, 'Cash'),
+(43, 'Charlie Brown', 5551234567, 'Card'),
+(44, 'David Lee', 3334445555, 'Cash'),
+(45, 'Emma Davis', 6667778888, 'Card');
+
+
+
+-- Inserting into supplier table
+INSERT INTO supplier (supplier_name, state, city, point_of_contact) 
+VALUES 
+('Fashion World', 'Maharashtra', 'Mumbai', 'Priya Patel'),
+('Stretchy Styles', 'Tamil Nadu', 'Chennai', 'Rajesh Kumar'),
+('Fresh Mart', 'Karnataka', 'Bangalore', 'Ananya Reddy'),
+('Bakery Bazaar', 'Delhi', 'New Delhi', 'Vikram Singh'),
+('Cushion Creations', 'Uttar Pradesh', 'Lucknow', 'Aaradhya Sharma'),
+('Cozy Comforts', 'West Bengal', 'Kolkata', 'Arjun Banerjee'),
+('Tech Heaven', 'Telangana', 'Hyderabad', 'Ravi Reddy'),
+('Sound Sensation', 'Gujarat', 'Ahmedabad', 'Neha Shah'),
+('Math Mart', 'Punjab', 'Amritsar', 'Manpreet Kaur'),
+('Stationery World', 'Rajasthan', 'Jaipur', 'Rohit Gupta'),
+('Brush Boutique', 'Kerala', 'Kochi', 'Priya Menon'),
+('Glamour Beauty', 'Haryana', 'Gurgaon', 'Aisha Khan'),
+('Cycle Central', 'Madhya Pradesh', 'Indore', 'Vikas Jain'),
+('cardio craze', 'Bihar', 'Patna', 'Rajesh Kumar'),
+('Playtime Paradise', 'Odisha', 'Bhubaneswar', 'Ananya Das'),
+('Creative Crafts', 'Assam', 'Guwahati', 'Ravi Sharma'),
+('Decor Delights', 'Chandigarh', 'Chandigarh', 'Neha Chopra'),
+('Cinema Central', 'Jharkhand', 'Ranchi', 'Arjun Singh'),
+('Yoga Essentials', 'Uttar Pradesh', 'Varanasi', 'Anushka Tiwari');
+
+
+
+-- Inserting into item table
+INSERT INTO item (item_code, item_name, stock, selling_price, sid) 
+VALUES 
+(26, 'Dress Shirt', 50, 30, 1),
+(27, 'Skirt', 40, 25, 1),
+(28, 'Dress', 30, 50, 1),
+(29, 'Jeans', 60, 40, 1),
+(30, 'T-shirt', 70, 20, 1),
+(31, 'Sweater', 45, 35, 1),
+(32, 'Jacket', 35, 60, 1),
+(33, 'Leggings', 55, 25, 1),
+(34, 'Shorts', 65, 30, 1),
+(35, 'Coat', 25, 80, 1),
+(36, 'Apples', 100, 2, 2),
+(37, 'Bananas', 80, 1.5, 2),
+(38, 'Milk', 50, 3, 2),
+(39, 'Bread', 80, 1.5, 2),
+(40, 'Eggs', 60, 2.5, 2),
+(41, 'Rice', 90, 1.5, 2),
+(42, 'Pasta', 40, 2, 2),
+(43, 'Cereal', 50, 3.5, 2),
+(44, 'Frozen Pizza', 30, 5, 2),
+(45, 'Canned Soup', 40, 2.5, 2),
+(46, 'Throw Pillows', 35, 15, 4),
+(47, 'Blanket', 40, 30, 4),
+(48, 'Curtains', 30, 25, 4),
+(49, 'Area Rug', 25, 50, 4),
+(50, 'Wall Art', 20, 40, 4),
+(51, 'Table Lamp', 45, 25, 4),
+(52, 'Throw Blanket', 45, 20, 4),
+(53, 'Dining Chair', 30, 60, 4),
+(54, 'Bookshelf', 25, 80, 4),
+(55, 'Vase', 40, 20, 4),
+(56, 'Smartphone', 60, 500, 5),
+(57, 'Laptop', 40, 1000, 5),
+(58, 'Tablet', 35, 300, 5),
+(59, 'Bluetooth Speaker', 40, 50, 5),
+(60, 'Headphones', 50, 30, 5),
+(61, 'Smartwatch', 30, 200, 5),
+(62, 'Digital Camera', 25, 400, 5),
+(63, 'Gaming Console', 20, 350, 5),
+(64, 'External Hard Drive', 30, 80, 5),
+(65, 'Printer', 25, 150, 5),
+(66, 'Notebook', 50, 3, 6),
+(67, 'Pen Set', 80, 1.5, 6),
+(68, 'Pencil Case', 40, 2, 6),
+(69, 'Highlighters', 35, 2.5, 6),
+(70, 'Sticky Notes', 60, 1, 6),
+(71, 'Binder Clips', 45, 1, 6),
+(72, 'Scissors', 30, 3, 6),
+(73, 'Calculator', 25, 10, 6),
+(74, 'Whiteboard', 20, 20, 6),
+(75, 'Desk Organizer', 40, 15, 6),
+(76, 'Foundation', 50, 25, 7),
+(77, 'Mascara', 40, 12, 7),
+(78, 'Lipstick', 30, 10, 7),
+(79, 'Eyeshadow Palette', 35, 20, 7),
+(80, 'Blush', 25, 15, 7),
+(81, 'Eyeliner', 30, 8, 7),
+(82, 'Makeup Brushes Set', 20, 30, 7),
+(83, 'Nail Polish', 45, 5, 7),
+(84, 'Face Masks', 40, 3, 7),
+(85, 'Hair Styling Gel', 35, 8, 7),
+(86, 'Yoga Mat', 50, 20, 8),
+(87, 'Dumbbell Set', 40, 50, 8),
+(88, 'Resistance Bands', 30, 15, 8),
+(89, 'Jump Rope', 35, 10, 8),
+(90, 'Exercise Ball', 25, 25, 8),
+(91, 'Running Shoes', 30, 60, 8),
+(92, 'Treadmill', 20, 800, 8),
+(93, 'Boxing Gloves', 25, 30, 8),
+(94, 'Bike', 40, 300, 8),
+(95, 'Sports Water Bottle', 45, 5, 8),
+(96, 'Teddy Bear', 50, 15, 9),
+(97, 'Dollhouse', 40, 40, 9),
+(98, 'Building Blocks', 30, 20, 9),
+(99, 'Remote Control Car', 35, 30, 9),
+(100, 'Puzzle Set', 40, 10, 9),
+(101, 'Action Figures Set', 30, 25, 9),
+(102, 'Art Kit', 25, 15, 9),
+(103, 'Musical Instrument Set', 20, 40, 9),
+(104, 'Outdoor Playhouse', 35, 100, 9),
+(105, 'Coloring Books Set', 40, 5, 9),
+(106, 'Greeting Cards Assortment', 60, 2, 11),
+(107, 'Gift Wrap Rolls', 40, 3, 11),
+(108, 'Holiday Ornaments Set', 50, 10, 11),
+(109, 'Birthday Party Supplies Kit', 45, 20, 11),
+(110, 'Seasonal Decorations Bundle', 30, 30, 11),
+(111, 'Vitamins & Supplements', 50, 20, 12),
+(112, 'Protein Powder', 40, 30, 12),
+(113, 'Yoga Mat', 30, 25, 12),
+(114, 'Essential Oils Set', 35, 40, 12),
+(115, 'Fitness Tracker', 45, 50, 12),
+(116, 'Board Games Set', 50, 30, 10),
+(117, 'DVD Box Set', 40, 20, 10),
+(118, 'Video Game Console', 30, 300, 10),
+(119, 'Portable Speaker', 35, 40, 10),
+(120, 'Movie Tickets Voucher', 45, 15, 10);
+
+
+
+-- Inserting into bill table
+INSERT INTO bill (bill_id, date, cust_id) 
+VALUES 
+(1, '2024-03-07', 12),
+(2, '2024-03-08', 5),
+(3, '2024-10-09', 35),
+(4, '2024-11-10', 37),
+(5, '2024-09-11', 18),
+(6, '2024-04-12', 9),
+(7, '2024-05-13', 2),
+(8, '2024-03-14', 31),
+(9, '2024-08-15', 14),
+(10, '2024-07-16', 41);
+
+
+
+-- Inserting into bill_details table
+INSERT INTO bill_details (bill_id, item_code, quantity) 
+VALUES 
+(1, 26, 5),
+(1, 27, 3),
+(1, 28, 2),
+(2, 56, 2),
+(2, 57, 1),
+(2, 58, 3),
+(2, 59, 4),
+(3, 81, 1),
+(3, 82, 2),
+(3, 83, 3),
+(4, 86, 1),
+(4, 87, 2),
+(4, 88, 2),
+(5, 96, 3),
+(5, 97, 1),
+(5, 98, 2),
+(6, 101, 2),
+(6, 102, 1),
+(6, 103, 1),
+(7, 106, 4),
+(7, 107, 2),
+(7, 108, 3),
+(8, 113, 1),
+(8, 114, 2),
+(8, 115, 1),
+(9, 116, 2),
+(9, 117, 1),
+(9, 118, 1),
+(10, 119, 3),
+(10, 120, 2);
+
+
+
+-- Inserting into warranty table
+INSERT INTO warranty (warranty_id, service_provider, warranty_period, item_code) 
+VALUES 
+(1, 'Ram Electric Services', '12 months', 59),
+(2, 'Shyam Electric Services', '24 months', 57),
+(3, 'Mahadev Electric Services', '18 months', 56),
+(4, 'Global Electric Services', '12 months', 58),
+(5, 'Modern Electric Services', '6 months', 119);
+
+
+
+-- Inserting into return_policy table
+INSERT INTO return_policy (policy_id, refund_percent, item_code) 
+VALUES 
+(1, 90, 81),
+(2, 90, 78),
+(3, 90, 76),
+(4, 90, 85),
+(5, 80, 61),
+(6, 80, 64);
+
+
+
+-- Inserting into offers table
+INSERT INTO offers (discount_percent, item_code, start_date, end_date) 
+VALUES 
+(10, 28, '2023-01-01', '2023-01-31'),
+(15, 35, '2023-02-01', '2023-02-28'),
+(20, 50, '2023-01-01', '2023-01-25'),
+(5, 79, '2023-03-01', '2023-03-28'),
+(12, 86, '2023-07-15', '2023-07-31'),
+(15, 103, '2023-10-15', '2023-10-15');
+
+
+
+-- Inserting into supplier_email table
+INSERT INTO supplier_email (email_id, supplier_name) 
+VALUES 
+('fashionworld@example.com', 'Fashion World'),
+('fashion12345@example.com', 'Fashion World'),
+('strectchystyles@example.com', 'Stretchy Styles'),
+('stre895@example.com', 'Stretchy Styles'),
+('freshmart@example.com', 'Fresh Mart'),
+('bakerybazaar@example.com', 'Bakery Bazaar'),
+('cushioncreations@example.com', 'Cushion Creations'),
+('cozycomforts@example.com', 'Cozy Comforts'),
+('techheaven@example.com', 'Tech Heaven'),
+('soundsensation@example.com', 'Sound Sensation'),
+('mathmart@example.com', 'Math Mart'),
+('stationaryworld@example.com', 'Stationery World'),
+('brushboutique@example.com', 'Brush Boutique'),
+('glamourbeauty@example.com', 'Glamour Beauty'),
+('cyclecentral@example.com', 'Cycle Central'),
+('cardiocraze@example.com', 'cardio craze'),
+('playtimeparadise@example.com', 'Playtime Paradise'),
+('creativecrafts@example.com', 'Creative Crafts'),
+('decordelights@example.com', 'Decor Delights'),
+('cinemacentral@example.com', 'Cinema Central'),
+('yogaessentials@example.com', 'Yoga Essentials');
+
+
+
+-- Inserting into order_details table
+INSERT INTO order_details (order_id, supplier_name, item_code, quantity_ordered, order_date, arrival_date, purchase_price)
+VALUES
+(1, 'Fashion World', 26, 10, '2024-04-16', '2024-04-25', 20),
+(2, 'Stretchy Styles', 30, 20, '2024-04-16', '2024-04-26', 15),
+(3, 'Tech Heaven', 57, 5, '2024-04-17', '2024-04-28', 800),
+(4, 'Glamour Beauty', 79, 15, '2024-04-17', '2024-04-27', 15),
+(5, 'Cycle Central', 92, 2, '2024-04-18', '2024-04-30', 600),
+(6, 'Math Mart', 74, 3, '2024-04-18', '2024-05-01', 15),
+(7, 'Playtime Paradise', 98, 10, '2024-04-19', '2024-05-02', 30),
+(8, 'Cinema Central', 117, 5, '2024-04-19', '2024-05-03', 15),
+(9, 'Creative Crafts', 96, 8, '2024-04-20', '2024-05-04', 10),
+(10, 'Yoga Essentials', 111, 12, '2024-04-20', '2024-05-05', 15),
+(11, 'Brush Boutique', 83, 20, '2024-04-21', '2024-05-06', 3),
+(12, 'Cozy Comforts', 47, 6, '2024-04-21', '2024-05-07', 20),
+(13, 'Fresh Mart', 36, 15, '2024-04-22', '2024-05-08', 1),
+(14, 'Stationery World', 76, 25, '2024-04-22', '2024-05-09', 15),
+(15, 'Tech Heaven', 65, 8, '2024-04-23', '2024-05-10', 100),
+(16, 'Glamour Beauty', 84, 30, '2024-04-23', '2024-05-11', 2),
+(17, 'Cushion Creations', 46, 12, '2024-04-24', '2024-05-12', 10),
+(18, 'cardio craze', 91, 4, '2024-04-24', '2024-05-13', 45),
+(19, 'Decor Delights', 108, 7, '2024-04-25', '2024-05-14', 7),
+(20, 'Sound Sensation', 62, 5, '2024-04-25', '2024-05-15', 300);
+
+
